@@ -8,14 +8,14 @@ public class Main
     public static void main(String[] args)
     {
         Main main = new Main();
-        OpponentChooseer.OpponentChose();
+        OpponentChooseer.WhatyouChoose();
         armorchooser.HeadChooseer();
         armorchooser.ChestChooseer();
         armorchooser.LegChooseer();
+        System.out.println("Your armor count is " + armorcalculator.armorAmmount());
         WeaponChooser.WeaponChose();
         DMG.damagaem();
 
-        System.out.println("Your armor count is " + armorcalculator.armorAmmount());
     }
     public Orc getOrc(){
         return new Orc(1,500);

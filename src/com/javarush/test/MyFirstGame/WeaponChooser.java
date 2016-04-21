@@ -30,14 +30,16 @@ public class WeaponChooser
                 }
                 if (value == 2)
                 {
-
-                    System.out.println("You choose KNIFE BUT IT NOT WORK MUHAHA");
+                    weaponspeed = Weapon.Knife.getSpeed();
+                    weapondamage = Weapon.Knife.getDamage();
+                    Weapon.Knife.weaponcall();
                     break;
                 }
                 if (value == 1)// leather here
                 {
-
-                    System.out.println("You choose SWORD BUT IT NOT WORK MUHAHA");
+                    weaponspeed = Weapon.Sword.getSpeed();
+                    weapondamage = Weapon.Sword.getDamage();
+                    Weapon.Sword.weaponcall();
                     break;
                 }
             }

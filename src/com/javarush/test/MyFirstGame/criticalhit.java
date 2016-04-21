@@ -7,8 +7,8 @@ public class criticalhit
 {
     public static int Iscritical(){
         int i = (int)(Math.random()*10+1);
-        if(i > 7){
-            System.out.println("CRITICAL HIT!");
+        if(i > 8){
+            System.out.print("CRITICAL HIT!");
             return 2;
 
 
